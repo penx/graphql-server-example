@@ -1,0 +1,28 @@
+{
+  "name": "graphql-server-example",
+  "version": "0.0.1",
+  "description": "This repository shows how to modify the Apollo Server getting started application to support running GrapQL Playground while offline.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alasdair McLeay",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.1.0",
+    "apollo-server-express": "^2.1.0",
+    "graphql": "^14.0.2",
+    "graphql-playground-react": "^1.7.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penx/graphql-server-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/penx/graphql-server-example/issues"
+  },
+  "homepage": "https://github.com/penx/graphql-server-example#readme"
+}
