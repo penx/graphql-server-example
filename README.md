@@ -1,6 +1,6 @@
 # Apollo Server with offline playground support
 
-This repository shows how to modify the [Apollo Server getting started](https://www.apollographql.com/docs/apollo-server/getting-started.html) application to support running GrapQL Playground while offline.
+This repository shows how to modify the [Apollo Server getting started](https://www.apollographql.com/docs/apollo-server/getting-started.html) application to support running GraphQL Playground while offline.
 
 For full functionality, prisma/graphql-playground#845 needs to be merged and included in the @apollographql/graphql-playground fork.
 
@@ -17,4 +17,4 @@ In the meantime, some manual setup is needed:
 - `yarn link @apollographql/graphql-playground-html`
 - `yarn start`
 
-You should now be able to navigate to http://localhost:4000/graphql and see graphql playground load - inspect source and you should see the scripts and styles in the head are now loading from localhost rather than the CDN.
+You should now be able to navigate to http://localhost:4000/graphql and see GraphQL playground load - inspect source and you should see the scripts and styles in the head are now loading from localhost rather than the CDN.
