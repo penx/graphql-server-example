@@ -59,7 +59,7 @@ const server = new ApolloServer({
 
 app.use(
   '/static/graphql-playground-react',
-  express.static('node_modules/graphql-playground-react/'),
+  express.static(require.resolve('graphql-playground-react/package.json').slice(0, -12)),
 );
 
 server.applyMiddleware({ app });
